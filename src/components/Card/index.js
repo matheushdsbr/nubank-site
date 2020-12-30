@@ -1,9 +1,9 @@
 import React from 'react';
-import { CartContainer } from './styles';
+import { CardContainer } from './styles';
 
-const Cart = ({ title, linkText, inverted }) => (
+const Card = ({ title, linkText, inverted }) => (
   <>
-    <CartContainer inverted={inverted}>
+    <CardContainer inverted={inverted}>
       <h1>{title}</h1>
       <a href="#">
         {linkText}
@@ -24,8 +24,8 @@ const Cart = ({ title, linkText, inverted }) => (
           />
         </svg>
       </a>
-    </CartContainer>
+    </CardContainer>
   </>
 );
 
-export default Cart;
+export default Card;

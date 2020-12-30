@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { COLORS } from '../../tokens';
 
-export const CartContainer = styled.div`
+export const CardContainer = styled.div`
   h1 {
     color: ${COLORS.white};
     font-size: 28px;
