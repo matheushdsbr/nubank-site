@@ -1,6 +1,7 @@
 import React from 'react';
-import { SectionPix } from './styles';
+import { SectionPix, SectionImg } from './styles';
 import Cart from '../Cart';
+import ImgPix from '../../images/pix-transfer.png';
 
 const Pix = () => (
   <>
@@ -9,6 +10,10 @@ const Pix = () => (
         title="Pix: um novo jeito de fazer transferências e pagamentos"
         linkText="Saiba como funciona"
       />
+
+      <SectionImg>
+        <img src={ImgPix} alt="" />
+      </SectionImg>
     </SectionPix>
   </>
 );
