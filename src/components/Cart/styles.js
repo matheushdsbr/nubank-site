@@ -13,6 +13,7 @@ export const CartContainer = styled.div`
 
     svg {
       margin-left: 5px;
+      color: ${(props) => (props.inverted ? COLORS.primary : COLORS.white)};
     }
 
     &:hover {
