@@ -10,6 +10,7 @@ export const CardContainer = styled.div`
 
   a {
     color: ${COLORS.white};
+    font-weight: 500;
 
     svg {
       color: ${(props) => (props.inverted ? COLORS.primary : COLORS.white)};
