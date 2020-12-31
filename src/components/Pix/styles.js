@@ -14,3 +14,15 @@ export const SectionImg = styled.div`
     width: 190px;
   }
 `;
+
+export const SectionForm = styled.div`
+  background: ${COLORS.white};
+  border-radius: 16px;
+  padding: 24px;
+
+  h3 {
+    color: ${COLORS.secundary};
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+`;

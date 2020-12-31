@@ -1,12 +1,13 @@
 import React from 'react';
-import { SectionPix, SectionImg } from './styles';
-import Cart from '../Cart';
+import { SectionPix, SectionImg, SectionForm } from './styles';
+import Card from '../Card';
 import ImgPix from '../../images/pix-transfer.png';
+import Form from '../Form';
 
 const Pix = () => (
   <>
     <SectionPix>
-      <Cart
+      <Card
         title="Pix: um novo jeito de fazer transferências e pagamentos"
         linkText="Saiba como funciona"
       />
@@ -14,6 +15,11 @@ const Pix = () => (
       <SectionImg>
         <img src={ImgPix} alt="" />
       </SectionImg>
+
+      <SectionForm>
+        <h3>Peça sua conta e cartão de crédito do Nubank</h3>
+        <Form />
+      </SectionForm>
     </SectionPix>
   </>
 );
