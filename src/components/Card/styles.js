@@ -10,17 +10,17 @@ export const CardContainer = styled.div`
 
   a {
     color: ${COLORS.white};
-    font-weight: 500;
     display: inline-block;
+    font-weight: 500;
     text-decoration: none;
 
     &::after {
       content: '';
-      display: block;
-      width: 0;
-      height: 2px;
       background-color: ${COLORS.white};
+      display: block;
+      height: 2px;
       transition: width 0.2s;
+      width: 0;
     }
 
     &:hover::after {
