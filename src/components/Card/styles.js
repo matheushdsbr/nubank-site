@@ -12,8 +12,8 @@ export const CardContainer = styled.div`
     color: ${COLORS.white};
 
     svg {
-      margin-left: 5px;
       color: ${(props) => (props.inverted ? COLORS.primary : COLORS.white)};
+      margin-left: 5px;
     }
 
     &:hover {

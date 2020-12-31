@@ -7,8 +7,8 @@ export const SectionPix = styled.section`
 `;
 
 export const SectionImg = styled.div`
-  text-align: center;
   margin-top: 40px;
+  text-align: center;
 
   img {
     width: 190px;

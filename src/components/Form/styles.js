@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { COLORS } from '../../tokens';
 
 export const SectionForm = styled.div`
-  margin-bottom: 16px;
   background: ${COLORS.white};
+  margin-bottom: 16px;
 
   .formGroup {
     position: relative;
