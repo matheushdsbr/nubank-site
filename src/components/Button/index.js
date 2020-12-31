@@ -4,7 +4,7 @@ import { ContinueButton } from './styles';
 const Button = () => (
   <>
     <ContinueButton href="#">
-      <span>Continue</span>
+      <span>Continuar</span>
       <svg
         width="16"
         height="16"

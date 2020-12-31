@@ -3,6 +3,7 @@ import { COLORS } from '../../tokens';
 
 export const SectionPix = styled.section`
   background: ${COLORS.primary};
+  height: 100vh;
   padding: 48px 16px;
 `;
 
@@ -29,7 +30,7 @@ export const SectionForm = styled.div`
     h3 {
       color: ${COLORS.secundary};
       font-size: 20px;
-      margin-bottom: 32px;
+      margin-bottom: 45px;
     }
   }
 `;

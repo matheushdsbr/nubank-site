@@ -8,7 +8,7 @@ export const ContinueButton = styled.a`
   color: ${COLORS.alfa};
   cursor: pointer;
   display: flex;
-  font-weight: 450;
+  font-weight: 600;
   height: 48px;
   justify-content: space-between;
   margin-bottom: 10px;
