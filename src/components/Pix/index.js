@@ -17,8 +17,10 @@ const Pix = () => (
       </SectionImg>
 
       <SectionForm>
-        <h3>Peça sua conta e cartão de crédito do Nubank</h3>
-        <Form />
+        <div className="formContent">
+          <h3>Peça sua conta e cartão de crédito do Nubank</h3>
+          <Form />
+        </div>
       </SectionForm>
     </SectionPix>
   </>

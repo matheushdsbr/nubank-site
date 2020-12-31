@@ -16,13 +16,20 @@ export const SectionImg = styled.div`
 `;
 
 export const SectionForm = styled.div`
-  background: ${COLORS.white};
-  border-radius: 16px;
-  padding: 24px;
+  display: flex;
+  justify-content: center;
 
-  h3 {
-    color: ${COLORS.secundary};
-    font-size: 20px;
-    margin-bottom: 32px;
+  .formContent {
+    background: ${COLORS.white};
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 35px;
+    width: 310px;
+
+    h3 {
+      color: ${COLORS.secundary};
+      font-size: 20px;
+      margin-bottom: 32px;
+    }
   }
 `;
