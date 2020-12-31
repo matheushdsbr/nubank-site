@@ -3,6 +3,7 @@ import { SectionPix, SectionImg, SectionForm } from './styles';
 import Card from '../Card';
 import ImgPix from '../../images/pix-transfer.png';
 import Form from '../Form';
+import Button from '../Button';
 
 const Pix = () => (
   <>
@@ -20,6 +21,7 @@ const Pix = () => (
         <div className="formContent">
           <h3>Peça sua conta e cartão de crédito do Nubank</h3>
           <Form />
+          <Button />
         </div>
       </SectionForm>
     </SectionPix>

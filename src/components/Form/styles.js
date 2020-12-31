@@ -6,6 +6,7 @@ export const SectionForm = styled.div`
   margin-bottom: 16px;
 
   .formGroup {
+    margin-bottom: 40px;
     position: relative;
     width: 100%;
 
