@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-import { COLORS } from '../../tokens';
+import { colors } from '../../tokens';
 
 export const ContinueButton = styled.a`
   align-items: center;
-  background-color: ${COLORS.bravo};
+  background-color: ${colors.bravo};
   border-radius: 25px;
-  color: ${COLORS.alfa};
+  color: ${colors.alfa};
   cursor: pointer;
   display: flex;
   font-weight: 600;
@@ -17,8 +17,8 @@ export const ContinueButton = styled.a`
   width: 100%;
 
   &:hover {
-    background-color: ${COLORS.primary};
-    color: ${COLORS.white};
+    background-color: ${colors.primary};
+    color: ${colors.white};
     text-decoration: none;
     transition: 0.2s ease-in-out;
   }

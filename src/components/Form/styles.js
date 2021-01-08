@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { COLORS } from '../../tokens';
+import { colors } from '../../tokens';
 
 export const SectionForm = styled.div`
-  background: ${COLORS.white};
+  background: ${colors.white};
   margin-bottom: 16px;
 
   .formGroup {
@@ -12,7 +12,7 @@ export const SectionForm = styled.div`
 
     input {
       border: none;
-      border-bottom: 1px solid ${COLORS.lightGray};
+      border-bottom: 1px solid ${colors.lightGray};
       font-weight: bold;
       outline: none;
       padding: 8px 0;
@@ -20,7 +20,7 @@ export const SectionForm = styled.div`
       width: 100%;
 
       &:focus {
-        border-bottom: 1px solid ${COLORS.secundary};
+        border-bottom: 1px solid ${colors.secundary};
       }
 
       &:focus ~ label,
@@ -32,7 +32,7 @@ export const SectionForm = styled.div`
     }
 
     label {
-      color: ${COLORS.gray};
+      color: ${colors.gray};
       cursor: text;
       font-weight: 450;
       left: 0;

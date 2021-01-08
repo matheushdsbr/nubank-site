@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { COLORS } from '../../tokens';
+import { colors } from '../../tokens';
 
 export const SectionPix = styled.section`
-  background: ${COLORS.primary};
+  background: ${colors.primary};
   height: 100vh;
   padding: 48px 16px;
 `;
@@ -21,14 +21,14 @@ export const SectionForm = styled.div`
   justify-content: center;
 
   .formContent {
-    background: ${COLORS.white};
+    background: ${colors.white};
     border-radius: 16px;
     padding: 24px;
     margin-top: 35px;
     width: 310px;
 
     h3 {
-      color: ${COLORS.secundary};
+      color: ${colors.secundary};
       font-size: 20px;
       margin-bottom: 45px;
     }

@@ -1,25 +1,25 @@
 import styled from 'styled-components';
-import { COLORS } from '../../tokens';
+import { colors } from '../../tokens';
 
 export const CardContainer = styled.div`
   h1 {
-    color: ${COLORS.white};
+    color: ${colors.white};
     font-size: 28px;
     margin-bottom: 16px;
   }
 
   a {
-    color: ${COLORS.white};
+    color: ${colors.white};
     display: inline-block;
     font-weight: 500;
     text-decoration: none;
 
     &::after {
       content: '';
-      background-color: ${COLORS.white};
+      background-color: ${colors.white};
       display: block;
       height: 2px;
-      transition: width 0.2s;
+      transition: 0.2s;
       width: 0;
     }
 
@@ -28,11 +28,11 @@ export const CardContainer = styled.div`
     }
 
     &:hover {
-      color: ${COLORS.white};
+      color: ${colors.white};
     }
 
     svg {
-      color: ${(props) => (props.inverted ? COLORS.primary : COLORS.white)};
+      color: ${(props) => (props.inverted ? colors.primary : colors.white)};
       margin-left: 5px;
     }
   }
